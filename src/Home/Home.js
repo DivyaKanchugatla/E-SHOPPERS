@@ -1,13 +1,12 @@
 import React from 'react'
-import Navbar from '../components/MainNavbar/Navbar'
-import TopNavbar from '../components/TopNavbar/TopNavbar'
+import Login from '../components/LoginPage/Login';
+
 
 
 const Home = () => {
   return (
     <div>
-        <TopNavbar/>
-        <Navbar/>
+        <Login/>
         
 </div>
   )
