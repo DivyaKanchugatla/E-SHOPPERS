@@ -1,15 +1,11 @@
 import React from 'react'
-import Navbar from '../components/MainNavbar/Navbar'
-import TopNavbar from '../components/TopNavbar/TopNavbar'
-
+import Details from '../components/ProductOfferFeature/Details'
 
 const Home = () => {
   return (
-    <div>
-        <TopNavbar/>
-        <Navbar/>
-        
-</div>
+    <>
+        <Details/>
+      </>
   )
 }
 

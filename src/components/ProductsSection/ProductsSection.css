@@ -1,0 +1,21 @@
+
+
+.image {
+    display: flex;
+    justify-content: center;
+    transition: transform 0.2s;
+    /* Animation */
+    margin: 0 auto;
+    width:100%;
+    padding:30px;
+    
+}
+
+
+.image:hover {
+    transform: scale(1.4);
+}
+
+.products-heading{
+    padding-right:10px;
+}
