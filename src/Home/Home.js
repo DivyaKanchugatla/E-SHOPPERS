@@ -1,16 +1,17 @@
 import React from 'react'
-import Navbar from '../components/MainNavbar/Navbar'
-import TopNavbar from '../components/TopNavbar/TopNavbar'
+import JustArrived from '../components/JustArrived/JustArrived';
+import Subscriber from '../components/Subscriber/Subscriber';
+import Trandy from '../components/Trandy/Trandy';
 
 
 const Home = () => {
   return (
     <div>
-        <TopNavbar/>
-        <Navbar/>
-        
-</div>
+        <Trandy />
+        <Subscriber />
+        <JustArrived />
+    </div>
   )
 }
 
-export default Home
+export default Home;
