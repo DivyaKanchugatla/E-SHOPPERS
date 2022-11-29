@@ -15,11 +15,11 @@
 .Shopper-header{
     font-weight: bold;
     font-size: 32px;
-    color:#d19c97 ;
+    color:black ;
 }
 .newsletter-button{
     background-color: #d19c97;
-    height: 50px;
+    height: 70px;
     width: 293px;
     border: #d4908a;
     border:none;
@@ -28,9 +28,11 @@
 
 .footer-e-shop-head-container{
     text-decoration: none;
+    font-size: 40px !important;
 }
 .quick-links-head{
     font-weight: bold;
+    font-size: 24px;
 }
 
 .icon-color {
@@ -42,3 +44,25 @@
     color:white ;
     background-color:#d4877f;
 }
+.para{
+    font-size:20px;
+}
+.footer-link{
+    font-size:20px;
+}
+.footer-icon{
+    font-size: 20px;
+}
+.input-field{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 55px;
+    padding-left: 12px;
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+::placeholder { 
+    color: rgb(182, 172, 172);
+    
+  }
