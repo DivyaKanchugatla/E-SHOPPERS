@@ -1,13 +1,15 @@
 import React from 'react'
-import Navbar from '../components/MainNavbar/Navbar'
-import TopNavbar from '../components/TopNavbar/TopNavbar'
+import Footer from '../components/Footer/Footer';
+import OwlDemo from '../components/Footer/OwlDemo';
+
+
 
 
 const Home = () => {
   return (
     <div>
-        <TopNavbar/>
-        <Navbar/>
+        <OwlDemo/>
+        <Footer/>
         
 </div>
   )
