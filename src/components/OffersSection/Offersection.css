@@ -12,12 +12,12 @@
     text-align: right;
 }
 
-.girl-image{
+.offer-section-girl-image{
     width:160px;
     
 }
 
-.girl-image-1{
+.offer-section-girl-image-1{
     
     width:124px;
 }
@@ -49,7 +49,7 @@
  }
 
 
-.offer{
+.offer-section-description{
     color: #D19C97;
     padding-right: 10px;
     

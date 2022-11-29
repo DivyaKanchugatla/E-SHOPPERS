@@ -1,6 +1,6 @@
 
 
-.image {
+.products-section-image{
     display: flex;
     justify-content: center;
     transition: transform 0.2s;
@@ -12,10 +12,10 @@
 }
 
 
-.image:hover {
+.products-section-image:hover {
     transform: scale(1.4);
 }
 
-.products-heading{
+.products-section-heading{
     padding-right:10px;
 }

@@ -9,14 +9,14 @@ const Feature = () => {
           <div className="col-lg-3 col-md-6 col-sm-12 pb-1">
               <div className="card d-flex  flex-row justify-content-center  text-center  p-3 mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#D19C97" style={{height:'40px',width:'40px'}}><path d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
-                  <h5 className="font-weight-semi-bold text-ceter pt-1 m-2">Quality Product</h5>
+                  <h5 className="font-weight-semi-bold text-ceter  m-2 pt-1">Quality Product</h5>
               </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 pb-1">
               <div className="card d-flex  flex-row justify-content-center  text-center  p-3 mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" fill="#D19C97" style={{height:'40px', width:'40px'}}><path d="M112 0C85.5 0 64 21.5 64 48V96H16c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 272c8.8 0 16 7.2 16 16s-7.2 16-16 16H64 48c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 240c8.8 0 16 7.2 16 16s-7.2 16-16 16H64 16c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 208c8.8 0 16 7.2 16 16s-7.2 16-16 16H64V416c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H112zM544 237.3V256H416V160h50.7L544 237.3zM160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48zm368-48c0 26.5-21.5 48-48 48s-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48z"/>
               </svg>
-                  <h5 className="font-weight-semi-bold m-2 pt-1">Free Shipping</h5>
+                  <h5 className="font-weight-semi-bold text-center m-2 pt-1">Free Shipping</h5>
               </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 pb-1">

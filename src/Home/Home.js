@@ -1,10 +1,15 @@
 import React from 'react'
-import Details from '../components/ProductOfferFeature/Details'
+import Feature from '../components/Features/Feature'
+import Offersection from '../components/OffersSection/Offersection'
+import ProductsSection from '../components/ProductsSection/ProductsSection'
+
 
 const Home = () => {
   return (
     <>
-        <Details/>
+        <Feature/>
+        <ProductsSection/>
+        <Offersection/>
       </>
   )
 }
