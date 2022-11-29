@@ -12,7 +12,7 @@ const Navbar = () => {
                     <i className="fa fa-angle-down text-dark"></i>
                 </a>
                 <nav className="navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0 collapse show" id="navbar-vertical">
-                    <div className="navbar-nav w-100 overflow-hidden" style={{height: "420px"}}>
+                    <div className="navbar-nav w-100 overflow-hidden" style={{height: "497px"}}>
                         <div className="nav-item dropdown">
                             <a href="#k" className="nav-link  d-flex align-items-center justify-content-between" data-toggle="dropdown" aria-expanded="false"   style={{height: "50px" , marginTop: "-1px", padding: "0 30px"}}><span className='m-4'>Dresses </span><i className="fa fa-angle-down float-right mt-1"></i></a>
                             <div className="dropdown-menu position-absolute border-0 rounded-0 w-100 m-0" style={{backgroundColor:"#EDF1FF"}}>
@@ -21,22 +21,24 @@ const Navbar = () => {
                                 <a href="kd" className="dropdown-item">Baby's Dresses</a>
                             </div>
                         </div>
-                        <a href="kd" className="nav-item nav-link text-color" style={{marginRight:"110px",height: "50px",padding:"5px"}}>Shirts</a>
-                        <a href="kd" className="nav-item nav-link text-color"  style={{marginRight:"110px",height: "50px",padding:"5px"}}>Jeans</a>
-                        <a href="kd" className="nav-item nav-link text-color" style={{marginRight:"80px",height: "50px",padding:"5px"}}>Swimwear</a>
-                        <a href="kd" className="nav-item nav-link text-color" style={{marginRight:"80px",height: "50px",padding:"5px"}}>Sleepwear</a>
-                        <a href="kd" className="nav-item nav-link text-color" style={{marginRight:"78px",height: "50px",padding:"5px"}}>Sportswear</a>
-                        <a href="kd" className="nav-item nav-link text-color" style={{marginRight:"85px",height: "50px",padding:"5px"}}>Jumpsuits</a>
-                        <a href="kd" className="nav-item nav-link text-color" style={{marginRight:"105px",height: "50px",padding:"5px"}}>Blazers</a>
-                        <a href="kd" className="nav-item nav-link text-color" style={{marginRight:"105px",height: "50px",padding:"5px"}}>Jackets</a>
-                        <a href="kd" className="nav-item nav-link text-color " style={{marginRight:"115px",height: "50px",padding:"5px"}}>Shoes</a>
+                        <div style={{paddingLeft:"42px"}}>
+                        <a href="kd" className="nav-item nav-link text-color">Shirts</a>
+                        <a href="kd" className="nav-item nav-link text-color">Jeans</a>
+                        <a href="kd" className="nav-item nav-link text-color">Swimwear</a>
+                        <a href="kd" className="nav-item nav-link text-color">Sleepwear</a>
+                        <a href="kd" className="nav-item nav-link text-color">Sportswear</a>
+                        <a href="kd" className="nav-item nav-link text-color">Jumpsuits</a>
+                        <a href="kd" className="nav-item nav-link text-color">Blazers</a>
+                        <a href="kd" className="nav-item nav-link text-color">Jackets</a>
+                        <a href="kd" className="nav-item nav-link text-color">Shoes</a>
+                    </div>
                     </div>
                 </nav>
             </div>
             <div className="col-lg-9">
                 <nav className="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
                     <a href="kd" className="text-decoration-none d-block d-lg-none">
-                        <h1 className="m-0 display-5 font-weight-semi-bold"><span className="text-primary font-weight-bold border px-3 mr-1">E</span><span className="heading">Shopper</span></h1>
+                        <h1 className="m-0 display-5 font-weight-semi-bold"><span className="E-text font-weight-bold border px-3 mr-1">E</span><span className="heading">Shopper</span></h1>
                     </a>
                     <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span className="navbar-toggler-icon"></span>
@@ -66,33 +68,33 @@ const Navbar = () => {
 <div id="header-carousel" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner " role="listbox">
                         <div className="carousel-item active" >
-                            <img className="img-fluid" src="https://technext.github.io/eshopper/img/carousel-1.jpg" alt=""/>
-                            <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                <div className="p-3 d-flex flex-column justify-content-center align-items-center text-container">
+                            <img className="img-fluid image-container" src="https://technext.github.io/eshopper/img/carousel-1.jpg" alt=""/>
+                            <div className="carousel-caption d-flex flex-column align-items-center justify-content-center text-container">
+                                <div className="p-3 d-flex flex-column justify-content-center align-items-center">
                                     <h4 className="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
                                     <h3 className="display-6 text-white font-weight-semi-bold mb-4">Fashionable Dress</h3>
-                                    <a href="kd" className="btn btn-light text-dark py-2 px-3 ">Shop Now</a>
+                                    <a href="kd" className="btn btn-light text-dark py-2 px-3 shop-button">Shop Now</a>
                                 </div>
                             </div>
                         </div>
                         <div className="carousel-item" >
-                            <img className="img-fluid w-100" src="https://technext.github.io/eshopper/img/carousel-2.jpg" alt=""/>
-                            <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                <div className="p-3 d-flex flex-column justify-content-center align-items-center text-container">
+                            <img className="img-fluid image-container" src="https://technext.github.io/eshopper/img/carousel-2.jpg" alt=""/>
+                            <div className="carousel-caption d-flex flex-column align-items-center justify-content-center text-container">
+                                <div className="d-flex flex-column justify-content-center align-items-center">
                                     <h4 className="text-light text-uppercase  mb-3">10% Off Your First Order</h4>
                                     <h3 className="display-6 text-white font-weight-semi-bold mb-4">Reasonable Price</h3>
-                                    <a href className="btn btn-light text-dark py-2 px-3 button">Shop Now</a>
+                                    <a href className="btn btn-light text-dark py-2 px-3 shop-button">Shop Now</a>
                                 </div>
                             </div>
                         </div>
                         <a className="carousel-control-prev" href="#header-carousel" data-slide="prev">
-                        <div className="btn btn-dark" style={{width: "45px", height: "45px"}}>
-                            <span className="carousel-control-prev-icon mb-n2"></span>
+                        <div className="btn btn-dark ml-3">
+                            <span className="carousel-control-prev-icon"></span>
                         </div>
                     </a>
                     <a className="carousel-control-next" href="#header-carousel" data-slide="next">
-                        <div className="btn btn-dark" style={{width: "45px", height: "45px"}}>
-                            <span className="carousel-control-next-icon mb-n2"></span>
+                        <div className="btn btn-dark mr-3">
+                            <span className="carousel-control-next-icon"></span>
                         </div>
                     </a>
                     </div>

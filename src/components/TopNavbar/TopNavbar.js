@@ -7,7 +7,7 @@ const TopNavbar = () => {
         <div className="container-fluid">
         <div className="row py-2 px-xl-5" style={{backgroundColor:"#EDF1FF"}}>
             <div className="col-lg-6 d-none d-lg-block justify-content-start align-items-start">
-            <div className="d-inline-flex align-items-start justify-content-start  faq-container">
+            <div className="d-inline-flex align-items-start justify-content-start">
                     <a className="text-dark text-decoration-none" href="kd">FAQs</a>
                     <span className="text-muted px-2">|</span>
                     <a className="text-dark text-decoration-none" href="kd">Help</a>
@@ -38,7 +38,7 @@ const TopNavbar = () => {
         <div className="row align-items-center py-3 px-xl-5">
             <div className="col-lg-3 d-none d-lg-block">
                 <a href="kd" className="text-decoration-none" style={{color:"black"}}>
-                    <h1 className="m-0 font-weight-semi-bold"><span className="text-primary font-weight-bold px-2 border mr-1">E</span><span className="heading font-weight-bold">Shopper</span></h1>
+                    <h1 className="m-0 font-weight-semi-bold"><span className="icon-color font-weight-bold px-2 border mr-1">E</span><span className="shop-heading font-weight-bold">Shopper</span></h1>
                 </a>
             </div>
             <div className="col-lg-6 col-6 text-left">
@@ -46,7 +46,7 @@ const TopNavbar = () => {
                     <div className="input-group">
                         <input type="text" className="form-control" placeholder="Search for products"/>
                         <div className="input-group-append">
-                            <span className="input-group-text bg-transparent text-primary">
+                            <span className="input-group-text bg-transparent icon-color">
                                 <i className="fa fa-search"></i>
                             </span>
                         </div>
@@ -55,11 +55,11 @@ const TopNavbar = () => {
             </div>
             <div className="col-lg-3 col-6 text-right">
                 <a href="kd" className="btn border mr-3">
-                    <i className="fas fa-heart text-primary"></i>
+                    <i className="fas fa-heart icon-color"></i>
                     <span className="badge">0</span>
                 </a>
-                <a href="kd" className="btn border">
-                    <i className="fas fa-shopping-cart text-primary"></i>
+                <a href="kd" className="btn border mr-3">
+                    <i className="fas fa-shopping-cart icon-color"></i>
                     <span className="badge">0</span>
                 </a>
             </div>
