@@ -1,31 +1,43 @@
-import React from 'react'
-import './Login.css';
+import React from "react";
+import "./Login.css";
 
-const Login = () => {
+
+const Login = (props) => {
+  const closeModal=()=>{
+    props.modalClose(false)
+  }
   return (
-    <section className='sect'>
-     {/* logincontainer */}
-     <div className='login-container'>
-            {/* form */}
-            <div className='form-container'>
-              <form action='' className=''>
-                <input type={"email"} name={"email"} placeholder="Username or email"/>
-                <input type={"password"} name={"password"} placeholder="Password"/>
-
-              </form>
-            
-
-            </div>
-
-      <div className='image-container'>
-       <img className='image' 
-       src='https://cdn.pixabay.com/photo/2019/04/26/07/14/store-4156934_960_720.png' alt=''/>
+    <div className="container containermain">
+      <div className="row">
+        <div className="cardContainer">
+          <div className="exitSection">
+            <button onClick={closeModal} className="exitbutton">X</button>
+          </div>
+          <div>
+            <h2 className="titleHeading">Login</h2>
+          </div>
+          <div className="userLoginContainer">
+            <label>Email</label>
+            <input
+              type="email"
+              placeholder="Enter Email"
+              className="form-control"
+            />
+            <label>Password</label>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              className="form-control"
+            />
+          </div>
+          <div className="buttonSection">
+            <button className="btn btn-success">Login</button>
+            <button className="btn btn-primary">Signup</button>
+          </div>
+        </div>
       </div>
-    
-     </div>
+    </div>
+  );
+};
 
-    </section>
-  )
-}
-
-export default Login
+export default Login;
