@@ -61,7 +61,7 @@ const JustArrived = () => {
         },
       ];
   return (
-    <div>
+    <>
         <div className="products-container">
         <h1 className="decorated">
           <span className="text">Just Arrived
@@ -115,7 +115,7 @@ const JustArrived = () => {
         })}
       </div>
  
-    </div>
+    </>
   )
 }
 
