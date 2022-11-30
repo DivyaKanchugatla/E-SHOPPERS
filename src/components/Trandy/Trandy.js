@@ -65,7 +65,7 @@ function Trandy() {
     <div>
       <div className="products-container">
         <h1 className="decorated">
-          <span className="text">--Trandy Products--</span>
+          <span className="text">Trandy Products</span>
         </h1>
       </div>
       <div className="shop-container">

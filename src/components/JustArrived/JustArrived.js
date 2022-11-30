@@ -64,7 +64,7 @@ const JustArrived = () => {
     <div>
         <div className="products-container">
         <h1 className="decorated">
-          <span className="text">--Just Arrived--
+          <span className="text">Just Arrived
           </span>
         </h1>
       </div>
