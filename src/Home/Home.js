@@ -1,6 +1,8 @@
 import React,{useState} from 'react';
 import Login from '../components/LoginPage/Login';
-
+import JustArrived from '../components/JustArrived/JustArrived';
+import Subscriber from '../components/Subscriber/Subscriber';
+import Trandy from '../components/Trandy/Trandy';
 
 
 const Home = () => {
@@ -14,12 +16,13 @@ const Home = () => {
 
   return (
     <div>
-      <button onClick={()=>setLoginModal(!loginmodal)}>Login</button>
-   
+      <button onClick={()=>setLoginModal(!loginmodal)}>Login</button> 
       <div>{loginmodal && <Login modalClose={modalClose} />}</div>
-        
-</div>
+        <Trandy />
+        <Subscriber />
+        <JustArrived />
+    </div>
   )
 }
 
-export default Home
+export default Home;
