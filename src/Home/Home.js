@@ -5,8 +5,9 @@ import Subscriber from '../components/Subscriber/Subscriber';
 import Trandy from '../components/Trandy/Trandy';
 import Footer from '../components/Footer/Footer';
 import OwlDemo from '../components/Footer/OwlDemo';
-
-
+import Feature from '../components/Features/Feature'
+import Offersection from '../components/OffersSection/Offersection'
+import ProductsSection from '../components/ProductsSection/ProductsSection'
 
 
 const Home = () => {
@@ -15,9 +16,6 @@ const Home = () => {
   const modalClose =(info)=>{
     setLoginModal(info)
   }
-
-
-
   return (
     <div>
       <button onClick={()=>setLoginModal(!loginmodal)}>Login</button> 
@@ -26,9 +24,13 @@ const Home = () => {
         <Subscriber />
         <JustArrived />
         <OwlDemo/>
+		<Feature/>
+        <ProductsSection/>
+        <Offersection/>
         <Footer/>
-        
-</div>
+       
+		</div>
+
   )
 }
 
