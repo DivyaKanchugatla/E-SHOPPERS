@@ -17,9 +17,9 @@ const TopNavbar = () => {
             </div>
             <div className="col-lg-6 text-center text-lg-right">
                 <div className="d-inline-flex align-items-center">
-                <a className="text-dark px-2" href="kda>">
-                <i className="fab fa-facebook-f"></i>
-                </a>
+                    <a className="text-dark px-2" href="kda>">
+                        <i className="fab fa-facebook-f"></i>
+                    </a>
                     <a className="text-dark px-2" href="kd">
                         <i className="fab fa-twitter"></i>
                     </a>
@@ -68,5 +68,4 @@ const TopNavbar = () => {
     </div>
   )
 }
-
 export default TopNavbar
