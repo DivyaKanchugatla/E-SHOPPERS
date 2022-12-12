@@ -9,16 +9,12 @@ const Home = () => {
   const modalClose =(info)=>{
     setLoginModal(info)
   }
-
-
-
   return (
     <div>
-      <button onClick={()=>setLoginModal(!loginmodal)}>Login</button>
+       <button onClick={()=>setLoginModal(!loginmodal)}>Login</button>
    
-      <div>{loginmodal && <Login modalClose={modalClose} />}</div>
-        
-</div>
+   <div>{loginmodal && <Login modalClose={modalClose} />}</div>
+    </div>
   )
 }
 
