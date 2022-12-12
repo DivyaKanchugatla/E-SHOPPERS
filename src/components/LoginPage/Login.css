@@ -1,0 +1,58 @@
+.containermain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  z-index: 9999;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 250px;
+  min-height: 100px;
+  padding: 15px;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  
+}
+
+.exitSection{
+  align-self: end;
+  padding: 10px;
+}
+.exitbutton{
+  background-color: transparent;
+  border: none;
+  font-size: 28px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.titleHeading{
+  font-size: 34px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(71, 187, 18);
+}
+.cardContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid gray;
+  height: 350px;
+  width: 350px;
+  background-color: rgb(231, 227, 227);
+  box-shadow: 0 1px 1px black;
+}
+.userLoginContainer{
+  display: flex;
+  flex-direction: column;
+  color: rgb(68, 8, 233);
+  font-size: 23px;
+  padding: 9px;
+  font-weight: bold;
+}
+.buttonSection{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  font-size: 32px;
+  font-weight: bold;
+
+}
