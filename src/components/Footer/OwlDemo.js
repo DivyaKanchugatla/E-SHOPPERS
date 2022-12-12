@@ -11,12 +11,12 @@ export class OwlDemo extends Component {
             <div class='container-fluid' >      
             <div className="row title" style={{marginBottom: "20px"}} >      
                  
-            </div>  
+            </div> 
         </div>  
         <div class='container-fluid' >   
          <div className='row'>
           <div className='d-none d-md-block'>
-          <OwlCarousel items={6} margin={3} autoplay ={true} >  
+          <OwlCarousel items={6} margin={8} autoplay ={true} >  
         <div className='image-container'><img  className="img " alt = "pic1" src= {'https://technext.github.io/eshopper/img/vendor-5.jpg'}/></div>  
            <div className='image-container'><img  className="img shadw" alt = "pic2" src= {'https://technext.github.io/eshopper/img/vendor-3.jpg'}/></div>  
            <div className='image-container'><img  className="img shadw" alt = "pic3" src= {'https://technext.github.io/eshopper/img/vendor-2.jpg'}/></div>  

@@ -1,7 +1,15 @@
 import React from 'react'
-import './Footer.css'
+import "./Footer.css"
 
 const Footer = () => {
+    const listOfData = [
+        { hreftag: "home", categorey: "Home" },
+        { hreftag: "ourshop", categorey: "Our Shop" },
+        { hreftag: "shopdetail", categorey: "Shop Detail" },
+        { hreftag: "shopingcart", categorey: "Shoping Cart" },
+        { hreftag: "checkout", categorey: "Checkout" },
+        { hreftag: "contactus", categorey: "Contact Us" }
+      ];
   return (
     <div>
          <div class="container-fluid bg-footer text-dark mt-5 pt-5">
@@ -20,23 +28,23 @@ const Footer = () => {
                     <div class="col-md-4 mb-5">
                         <h5 class="quick-links-head mb-4">Quick Links</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-dark footer-link mb-2" href="home"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                            <a class="text-dark footer-link mb-2" href="shop"><i class="fa fa-angle-right mr-2"></i>Our Shop</a>
-                            <a class="text-dark footer-link mb-2" href="details"><i class="fa fa-angle-right mr-2"></i>Shop Detail</a>
-                            <a class="text-dark footer-link mb-2" href="cart"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
-                            <a class="text-dark footer-link mb-2" href="checkout"><i class="fa fa-angle-right mr-2"></i>Checkout</a>
-                            <a class="text-dark footer-link" href="contact"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                            {listOfData.map( (item) => (
+                                <a className='text-dark mb-2 footer-link' href={item.hreftag}>
+                                    <i class="fa fa-angle-right mr-2"></i>{item.categorey}
+                                </a>
+                            ))}                         
                         </div>
                     </div>
                     <div class="col-md-4 mb-5">
                         <h5 class="quick-links-head mb-4">Quick Links</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-dark footer-link mb-2" href="home1"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                            <a class="text-dark footer-link mb-2" href="shop1"><i class="fa fa-angle-right mr-2"></i>Our Shop</a>
-                            <a class="text-dark  footer-link mb-2" href="details1"><i class="fa fa-angle-right mr-2"></i>Shop Detail</a>
-                            <a class="text-dark  footer-link mb-2" href="cart1"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
-                            <a class="text-dark  footer-link mb-2" href="checkout1"><i class="fa fa-angle-right mr-2"></i>Checkout</a>
-                            <a class="text-dark footer-link" href="contact1"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                            {
+                                listOfData.map(each=>(
+                                    <a href={each.hreftag} className='text-dark mb-2 footer-link'>
+                                        <i class="fa fa-angle-right mr-2"></i>{each.categorey}
+                                    </a>
+                                ))
+                            }
                         </div>
                     </div>
                     <div class="col-md-4 mb-5">

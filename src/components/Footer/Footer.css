@@ -20,7 +20,7 @@
 .newsletter-button{
     background-color: #d19c97;
     height: 70px;
-    width: 293px;
+    width: 100%;
     border: #d4908a;
     border:none;
     transition: all 0.2s;
