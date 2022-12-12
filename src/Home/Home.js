@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <div>
 		 <button onClick={()=>setLoginModal(!loginmodal)}>Login</button> 
-      <div>{loginmodal && <Login modalClose={modalClose} />}</div>
+         <div>{loginmodal && <Login modalClose={modalClose} />}</div>
 		 <TopNavbar/>
         <Navbar/>
         <Trandy />
@@ -30,8 +30,6 @@ const Home = () => {
         <Offersection/>
         <Footer/>
 		</div>
-
   )
 }
-
 export default Home;
