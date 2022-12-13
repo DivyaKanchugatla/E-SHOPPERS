@@ -4,7 +4,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <>
-    {/* MainNavbar starts from here */}
+    { /* MainNavbar starts from here */}
         <div className="container-fluid mb-5">
      {/* MainNavbar row starts from here */}
         <div className="row border-top px-xl-5">
