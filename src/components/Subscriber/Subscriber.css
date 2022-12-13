@@ -1,0 +1,47 @@
+.product-container {
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+  
+.description {
+    font-size: 36px;
+}
+
+h3 {
+    padding-bottom: 10px;
+}
+  
+  .deco {
+    overflow: hidden;
+    text-align: center;
+  }
+  .deco > span{
+   position: relative;
+   display: inline-block;
+  }
+  .deco > span:before, .deco > span:after{
+   content: '';
+   position: absolute;
+   top: 50%;
+   border-bottom: 3px solid black;
+   width: 50px;
+   margin: 0 10px;
+  }
+  .deco > span:before{
+   right: 100%;
+  }
+
+  .input-group {
+    padding-bottom: 20px;
+  }
+
+.input-button {
+    background-color: #ac0d1c77;
+    border: none;
+}
+
+.input-button:hover{
+    color:aliceblue;
+    background-color: #ac0d1de3;
+}

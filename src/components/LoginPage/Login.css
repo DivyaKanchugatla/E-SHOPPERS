@@ -1,9 +1,17 @@
-.container{
+.Login-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow: none;
+  left: 0;
+  top: 0;
+  z-index: 99;
+
+
   height: 100vh;
   width: 100vw;
 }
@@ -18,7 +26,7 @@ section{
   width: 80%;
 }
 
-section .contentbx{
+section .Login-contentbx{
   display: flex; 
   flex-direction: column;
   justify-content: center;
@@ -45,7 +53,7 @@ section .contentbx{
   section{
     height: 80vh !important;
   }
-  section .contentbx{
+  section .Login-contentbx{
   
     width: 100% !important;
   
@@ -62,7 +70,7 @@ section .contentbx{
     height: 70vh;
     width: 95%;
   }
-  section .contentbx{ 
+  section .Login-contentbx{ 
     width: 50% !important;
     height: 100%;
   }
@@ -129,7 +137,7 @@ section .contentbx{
 
 
 
-section .contentbx .formbx .inputbx{ 
+section .Login-contentbx .formbx .inputbx{ 
   margin-bottom: 20px;
 }
 
@@ -146,7 +154,7 @@ section .contentbx .formbx .inputbx{
   color: #9d9fa0;
 }
 
-.btn{
+.Login-btn{
   background-color: #4886FF;
   color: white;
   width: 80px;
@@ -161,16 +169,16 @@ section .imgbx{
   height: 100%; 
 }
 
-.input-icons i {
+.Login-input-icons i {
   position: absolute;
 }
 
-.input-icons {
+.Login-input-icons {
   width: 100%;
   margin-bottom: 10px; 
 }
 
-.icon {
+.Login-icon {
   padding: 9px;
   color:  #9d9fa0;
   min-width: 40px;
@@ -178,7 +186,7 @@ section .imgbx{
   text-align: center;
   
 }
-.input-field{
+.Login-input-field{
   margin-bottom: 10px;
   text-align: center;
   width: 100% ;
