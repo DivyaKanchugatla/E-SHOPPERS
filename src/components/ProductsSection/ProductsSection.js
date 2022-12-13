@@ -46,7 +46,7 @@ const ProductsSection = () => {
               <div className="text-end pr-4 pt-4 mr-2 products-section-heading"> 
                 <p> 15 Products</p>
               </div>
-          <div className="card-img-top overflow-hidden p-3">
+          <div className="overflow-hidden p-3">
             <img src={product.imgSrc} className="products-section-image image-fluid" alt={product.title} />
             </div> 
           <div className="card-body">

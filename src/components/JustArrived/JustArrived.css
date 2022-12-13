@@ -1,39 +1,137 @@
-.card {
-  display: flex;
-  flex-wrap: wrap;
+.just-heading-container {
+  width: 100%;
   align-items: center;
-  background-size: cover;
-  width: 270px;
-  margin: 20px;
-  overflow-x: hidden;
+  margin-top: 40px;
 }
 
-.title {
-  font-size: 18px;
+.just-heading{
+  overflow: hidden;
+  text-align: center;
+  font-weight: bold;
+}
+
+.just-heading > span{
+ position: relative;
+ display: inline-block;
+}
+
+.just-heading > span:before, .just-heading > span:after{
+ content: '';
+ position: absolute;
+ top: 50%;
+ border-bottom: 3px solid black;
+ margin: 0 10px;
+}
+
+.just-heading > span:before{
+ right: 100%;
+}
+
+.just-shop-container {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.just-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+}
+
+@media screen and (min-width: 992px) {
+  .just-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+  }
+}
+
+.just-product-picture {
+  padding: 33px;
+  transition: transform 0.2s;
+  width: 250px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.just-product-picture:hover{
+  transform: scale(1.4);
+}
+
+@media screen and (min-width: 992px) {
+  .just-product-picture {
+    padding: 47px;
+    transition: transform 0.2s;
+    width: 322px;
+    height: 322px;
+    margin: 0 auto;
+  }
+
+  .just-product-picture:hover {
+    transform: scale(1.3);
+  }
+}
+
+.hr-line {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.just-product-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 12px;
+}
+
+.just-product-title {
+  font-size: 16px;
   font-family: sans-serif;
   color:black;
+  font-weight: 600;
 }
 
-.card-text {
-    color: black;
-}
-
-.price-container {
+.just-price-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.cross-price {
-  text-decoration: line-through;
+.just-product-price{
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+.just-product-cross-price {
+  font-family:  'Roboto';
+  font-size: 18px;
   color: grey;
+  text-decoration: line-through;
+  justify-content: space-between;
 }
 
-.line {
+.just-bottom-card-container {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
+  background-size: cover;
 }
 
-.button-container {
+.just-bottom-button {
+  margin: 12px;
+}
+
+.just-eye-cart-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.just-button-container {
   display: flex;
   align-items: center;
   width: 100%;
@@ -42,95 +140,14 @@
   height: 60px;
 }
 
-.add-button {
+.just-view-add-button {
   background: none;
   border: none;
-  font-size: 10px;
-  font-weight: 700;
+  font-size: 12px;
   font-family: sans-serif;
-  margin-right: 20px;
+  margin: 4px;
 }
 
-.view-button {
-  background: none;
-  border: none;
-  font-size: 10px;
-  font-weight: 700;
-  font-family: sans-serif;
-  margin-left: 5px;
-}
-
-.icon {
-  height: 20px;
-  
-}
-
-.card-img-top {
-  padding: 20px;
-  transition: transform 0.2s;
-  width: 230px;
-  height: 230px;
-  margin: 0 auto;
-}
-
-.card-img-top:hover {
-  transform: scale(1.4);
-}
-
-@media screen and (min-width: 992px) {
-  .card-img-top {
-    padding: 37px;
-    transition: transform 0.2s;
-    width: 330px;
-    height: 320px;
-    margin: 0 auto;
-  }
-
-  .card-img-top:hover {
-    transform: scale(1.3);
-  }
-}
-.shop-container {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  background-size: cover;
-  justify-content: center;
-}
-
-
-.products-container {
-  margin-top: 40px;
-}
-
-.text {
-  font-size: 36px;
-}
-
-.decorated{
-  overflow: hidden;
-  text-align: center;
-}
-.decorated > span{
- position: relative;
- display: inline-block;
-}
-.decorated > span:before, .decorated > span:after{
- content: '';
- position: absolute;
- top: 50%;
- border-bottom: 3px solid black;
- margin: 0 10px;
-}
-.decorated > span:before{
- right: 100%;
-}
-
-
-.add-button:hover {
-  color:rgb(165, 42, 42);
-}
-
-.view-button:hover {
-  color:rgb(165, 42, 42);
+.just-view-add-button:hover {
+  color:rgb(179, 40, 40);
 }
