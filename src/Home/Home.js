@@ -21,14 +21,14 @@ const Home = () => {
          <div>{loginmodal && <Login modalClose={modalClose} />}</div>
 		 <TopNavbar/>
         <Navbar/>
+        <Feature/>
+        <ProductsSection/>
+        <Offersection/>
         <Trandy />
         <Subscriber />
         <JustArrived />
         <OwlDemo/>
-		<Feature/>
-        <ProductsSection/>
-        <Offersection/>
-        <Footer/>
+		  <Footer/>
 		</div>
   )
 }
