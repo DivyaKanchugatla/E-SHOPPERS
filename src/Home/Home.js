@@ -14,16 +14,14 @@ const Home = () => {
   
   return (
     <div>
-		     
-         
 		    <TopNavbar/>
         <Navbar/>
-        <Trandy />
-        <Subscriber />
-        <JustArrived />  
         <Feature/>
         <ProductsSection/>
         <Offersection/>
+        <Trandy />
+        <Subscriber />
+        <JustArrived />  
         <OwlDemo/>
         <Footer/>
 		</div>
