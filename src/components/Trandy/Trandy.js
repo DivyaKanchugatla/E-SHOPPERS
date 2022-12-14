@@ -75,7 +75,7 @@ function Trandy() {
               <div className="col-lg-3 col-md-6 col-sm-12">
                 <div className="border mb-4">
                   <div key={each.id}>
-                    <div className="trandy-card card">
+                    <div className="trandy-card">
                       <img
                         src={each.imgSrc}
                         className="trandy-product-picture"
