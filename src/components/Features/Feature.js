@@ -1,7 +1,5 @@
 import './Feature.css'
 
-
-
 const Feature = () => {
   return (
   <div className="container-fluid pt-5">
