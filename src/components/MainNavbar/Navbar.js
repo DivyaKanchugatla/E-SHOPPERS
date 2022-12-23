@@ -1,7 +1,12 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './Navbar.css'
+import Login from '../LoginPage/Login'
 
 const Navbar = () => {
+    const [loginmodal, setLoginModal] = useState(false);
+    const modalClose =(info)=>{
+      setLoginModal(info)
+    }
   return (
     <div>
         <div className="container-fluid mb-5">
@@ -58,10 +63,11 @@ const Navbar = () => {
                             <a href="contact.html" className="nav-item nav-link items">Contact</a>
                         </div>
                         <div className="navbar-nav ml-auto py-0">
-                            <a href="kd" className="nav-item nav-link items">Login</a>
+                        <button className='items' onClick={()=>setLoginModal(!loginmodal)}>Login</button> 
                             <a href="kd" className="nav-item nav-link items">Register</a>
                         </div>
                     </div>
+                    <div>{loginmodal && <Login modalClose={modalClose} />}</div>
                 </nav>
 
                

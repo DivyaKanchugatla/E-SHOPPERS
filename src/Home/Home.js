@@ -1,5 +1,4 @@
-import React,{useState} from 'react';
-import Login from '../components/LoginPage/Login';
+import React from 'react';
 import JustArrived from '../components/JustArrived/JustArrived';
 import Subscriber from '../components/Subscriber/Subscriber';
 import Trandy from '../components/Trandy/Trandy';
@@ -10,15 +9,12 @@ import Offersection from '../components/OffersSection/Offersection'
 import ProductsSection from '../components/ProductsSection/ProductsSection'
 import Navbar from '../components/MainNavbar/Navbar'
 import TopNavbar from '../components/TopNavbar/TopNavbar'
+import Checkout from '../components/Checkout/Checkout'
 const Home = () => {
-  const [loginmodal, setLoginModal] = useState(false);
-  const modalClose =(info)=>{
-    setLoginModal(info)
-  }
+ 
   return (
     <div>
-		 <button onClick={()=>setLoginModal(!loginmodal)}>Login</button> 
-         <div>{loginmodal && <Login modalClose={modalClose} />}</div>
+		 
 		 <TopNavbar/>
         <Navbar/>
         <Feature/>
@@ -29,6 +25,7 @@ const Home = () => {
         <JustArrived />
         <OwlDemo/>
 		  <Footer/>
+      <Checkout/>
 		</div>
   )
 }

@@ -1,6 +1,8 @@
 .items{
     color:#0c0c0b !important;
     padding: 20px;
+    border-width:0px;
+    background-color: transparent;
 }
 .items:hover {
     color: #D19C97 !important;
