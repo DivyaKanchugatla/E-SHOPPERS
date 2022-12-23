@@ -4,37 +4,25 @@ import './Subscriber.css';
 const Subscriber = () => {
   return (
     <>
-      <div style={{backgroundColor: '#edf7fe', height:'70vh'}}>
-        <div className="container-fluid  my-3">
-          <div className="row justify-content-lg-center py-3 px-xl-3">
-            <div className="col-md-6 col-12 py-3">
-              <div className="text-center mb-2 pb-2">
-                <div className="product-container">
-                  <h1 className="deco">
-                    <span className="description">Stay Updated</span>
-                  </h1>
+      <div class="container-fluid my-5 subscriber-container" style={{backgroundColor: '#edf7fe'}}>
+        <div class="row justify-content-md-center py-5 px-xl-5">
+            <div class="col-md-6 col-12 py-5">
+                <div class="text-center mb-2 pb-2">
+                    <h2 class="section-title px-5 mb-3">
+                      <span class="px-2">Stay Updated</span></h2>
+                    <p>Amet lorem at rebum amet dolores. Elitr lorem dolor sed amet diam labore at justo ipsum eirmod duo labore labore.</p>
                 </div>
-                <p>
-                  Amet lorem at rebum amet dolores. Elitr lorem dolor sed amet
-                  diam labore at justo ipsum eirmod duo labore labore.
-                </p>
-              </div>
-              <form className='mb-3'>
-                <div className="input-group">
-                  <input
-                    type="text"
-                    className="form-control border-white p-3"
-                    placeholder="Email Goes Here"
-                  />
-                  <div className="input-group-append">
-                    <button className="input-button px-5">Subscribe</button>
-                  </div>
-                </div>
-              </form>
+                <form action="">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-white p-4" placeholder="Email Goes Here" fdprocessedid="l3wz9"/>
+                        <div class="input-group-append">
+                            <button class="btn px-4" style={{backgroundColor: "#ac0d1c77"}} fdprocessedid="q0fsq">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
     </>
   )
 }

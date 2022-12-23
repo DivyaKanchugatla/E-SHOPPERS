@@ -5,7 +5,7 @@ import './Feature.css'
 const Feature = () => {
   return (
   <div className="container-fluid pt-5">
-      <div className="row px-xl-5 pb-3">
+      <div className="row pb-3">
           <div className="col-lg-3 col-md-6 col-sm-12 pb-1">
               <div className="card d-flex  flex-row justify-content-center  text-center  p-3 mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#D19C97" style={{height:'40px',width:'40px'}}><path d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
