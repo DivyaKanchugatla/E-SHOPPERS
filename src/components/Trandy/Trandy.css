@@ -4,27 +4,27 @@
   margin-top: 40px;
 }
 
-.trandy-heading{
+.decorated{
   overflow: hidden;
   text-align: center;
-  font-weight: bold;
 }
-
-.trandy-heading > span{
+.decorated > span{
  position: relative;
  display: inline-block;
 }
-
-.trandy-heading > span:before, .trandy-heading > span:after{
+.decorated > span:before, .decorated > span:after{
  content: '';
  position: absolute;
  top: 50%;
- border-bottom: 3px solid black;
- margin: 0 10px;
+ border-bottom: 2px solid;
+ width: 50px;
+ margin: 0 20px;
 }
-
-.trandy-heading > span:before{
+.decorated > span:before{
  right: 100%;
+}
+.decorated > span:after{
+ left: 100%;
 }
 
 .trandy-shop-container {
@@ -153,3 +153,4 @@
 .trandy-view-add-button:hover {
   color:rgb(179, 40, 40);
 }
+

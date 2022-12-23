@@ -64,18 +64,16 @@ function Trandy() {
   return (
     <>
       <div className="trandy-heading-container">
-        <h2 className="trandy-heading mb-4">
-          <span>Trandy Products</span>
-        </h2>
+      <h2 className="decorated mb-4"><span>Trandy Products</span></h2>
       </div>
       <div className="container-fluid trandy-shop-container">
         <div className="row">
-          {data.map((each) => {
+          {data.map((each,index) => {
             return (
               <div className="col-lg-3 col-md-6 col-sm-12">
                 <div className="border mb-4">
-                  <div key={each.id}>
-                    <div className="trandy-card">
+                  <div>
+                    <div className="trandy-card" key = {each.id}>
                       <img
                         src={each.imgSrc}
                         className="trandy-product-picture"

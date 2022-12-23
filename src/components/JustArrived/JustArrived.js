@@ -63,17 +63,17 @@ const JustArrived = () => {
   return (
     <>
        <div className="just-heading-container">
-        <h2 className="just-heading mb-4">
+        <h2 className="decorated mb-4">
           <span>Just Arrived</span>
         </h2>
       </div>
       <div className="container-fluid just-shop-container">
         <div className="row">
-          {data.map((each) => {
+          {data.map((each,index) => {
             return (
               <div className="col-lg-3 col-md-6 col-sm-12">
                 <div className="border mb-4">
-                  <div key={each.id}>
+                  <div key={index}>
                     <div className="just-card">
                       <img
                         src={each.imgSrc}
