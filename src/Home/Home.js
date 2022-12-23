@@ -10,6 +10,7 @@ import Offersection from '../components/OffersSection/Offersection'
 import ProductsSection from '../components/ProductsSection/ProductsSection'
 import Navbar from '../components/MainNavbar/Navbar'
 import TopNavbar from '../components/TopNavbar/TopNavbar'
+import ShopDetail from '../components/ShopDetails/ShopDetail';
 const Home = () => {
   const [loginmodal, setLoginModal] = useState(false);
   const modalClose =(info)=>{
@@ -29,6 +30,7 @@ const Home = () => {
         <ProductsSection/>
         <Offersection/>
         <Footer/>
+        <ShopDetail/>
 		</div>
   )
 }
