@@ -10,8 +10,6 @@ import Offersection from '../components/OffersSection/Offersection'
 import ProductsSection from '../components/ProductsSection/ProductsSection'
 import Navbar from '../components/MainNavbar/Navbar'
 import TopNavbar from '../components/TopNavbar/TopNavbar'
-import Checkout from '../components/Checkout/Checkout'
-
 const Home = () => {
   
   return (
@@ -26,7 +24,6 @@ const Home = () => {
         <JustArrived />  
         <OwlDemo/>
         <Footer/>
-        <Checkout/>
 		</div>
  
   )

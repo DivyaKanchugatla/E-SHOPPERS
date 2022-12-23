@@ -1,26 +1,8 @@
-.product-container {
-    margin-top: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-  
-.description {
-    font-size: 36px;
-}
-
-h3 {
-    padding-bottom: 10px;
-}
-  
-  .deco {
-    overflow: hidden;
-    text-align: center;
-  }
-  .deco > span{
+  .section-title > span{
    position: relative;
    display: inline-block;
   }
-  .deco > span:before, .deco > span:after{
+  .section-title > span:before, .section-title > span:after{
    content: '';
    position: absolute;
    top: 50%;
@@ -28,20 +10,22 @@ h3 {
    width: 50px;
    margin: 0 10px;
   }
-  .deco > span:before{
+  .section-title > span:before{
    right: 100%;
   }
-
-  .input-group {
-    padding-bottom: 20px;
+  @media screen and (min-width:768px){
+    .subscriber-container{
+     width: 810px ! important;
+      height: 396px !important;
+    }
   }
-
-.input-button {
-    background-color: #ac0d1c77;
-    border: none;
-}
-
-.input-button:hover{
-    color:aliceblue;
-    background-color: #ac0d1de3;
-}
+  @media screen and (min-width:1024px){
+    .subscriber-container{
+      width: 1265px ! important;
+    }
+  }
+  @media screen and (max-width:320px){
+    .subscriber-container{
+      width: 340px ! important;
+    }
+  }

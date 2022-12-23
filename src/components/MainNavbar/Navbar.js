@@ -9,9 +9,12 @@ const Navbar = () => {
   }
     
   return (
-    <div>
+    <>
+    { /* MainNavbar starts from here */}
         <div className="container-fluid mb-5">
+     {/* MainNavbar row starts from here */}
         <div className="row border-top px-xl-5">
+             {/* categories dropdown starts from here */}
             <div className="col-lg-3 d-none d-lg-block">
                 <a className="btn shadow-none d-flex align-items-center justify-content-between text-white w-100" data-toggle="collapse" href="#navbar-vertical" style={{height: "65px",backgroundColor:"#D19C97", marginTop: "-1px", padding: "0 30px", ariaExpanded:"true"}}>
                     <h6 className="m-4 text-dark heading-text">Categories</h6>
@@ -41,14 +44,20 @@ const Navbar = () => {
                     </div>
                 </nav>
             </div>
+             {/* categories dropdown ends here */}
+
+              {/* Home Navbar and carousel code starts from here */}
             <div className="col-lg-9">
                 <nav className="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
+                     {/*To display Eshopper Anchor tag for mobile devices*/}
                     <a href="kd" className="text-decoration-none d-block d-lg-none">
                         <h1 className="m-0 display-5 font-weight-semi-bold"><span className="E-text font-weight-bold border px-3 mr-1">E</span><span className="heading">Shopper</span></h1>
                     </a>
+                    {/*Eshopper Anchor tag ends here*/}
                     <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span className="navbar-toggler-icon"></span>
                     </button>
+                     {/* Home Navbar starts from here */}
                     <div className="collapse navbar-collapse justify-content-between d-lg-block" id="navbarCollapse">
                         <div className="navbar-nav mr-auto py-0">
                             <a href="index.html" className="nav-item nav-link items">Home</a>
@@ -70,7 +79,6 @@ const Navbar = () => {
                         </div>
                     </div>
                 </nav>
-                {loginmodal && <Login modalClose={modalClose} />}
 
                
 <div id="header-carousel" className="carousel slide" data-ride="carousel">
@@ -91,7 +99,7 @@ const Navbar = () => {
                                 <div className="d-flex flex-column justify-content-center align-items-center">
                                     <h4 className="text-light text-uppercase  mb-3">10% Off Your First Order</h4>
                                     <h3 className="display-6 text-white font-weight-semi-bold mb-4">Reasonable Price</h3>
-                                    <a href className="btn btn-light text-dark py-2 px-3 shop-button">Shop Now</a>
+                                    <a href="@kd" className="btn btn-light text-dark py-2 px-3 shop-button">Shop Now</a>
                                 </div>
                             </div>
                         </div>
@@ -108,10 +116,13 @@ const Navbar = () => {
                     </div>
                     
                     </div>
+                     {/* carousel ends here */}
                 </div>
             </div>
+             {/* MainNavbar row ends here */}
         </div>
-    </div>
+         {/* MainNavbar ends here */}
+    </>
   )
 }
 

@@ -8,12 +8,12 @@ export class OwlDemo extends Component {
         {      
           return (  
               <div>  
-            <div class='container-fluid' >      
+            <div className='container-fluid' >      
             <div className="row title" style={{marginBottom: "20px"}} >      
                  
             </div>  
         </div>  
-        <div class='container-fluid' >   
+        <div className='container-fluid' >   
          <div className='row'>
           <div className='d-none d-md-block'>
           <OwlCarousel items={6} margin={3} autoplay ={true} >  

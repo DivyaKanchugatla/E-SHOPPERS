@@ -71,7 +71,7 @@ function Trandy() {
       <div className="shop-container">
         {data.map((each) => {
           return (
-            <div key={each.id} className="trandy-card card">
+            <div key={each.id} className="card">
               <img
                 src={each.imgSrc}
                 className="card-img-top from-control"
